@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definición de fuentes */
+@font-face {
+  font-family: "Urbanist";
+  src: url("/fonts/Urbanist-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Urbanist";
+  src: url("/fonts/Urbanist-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+html, body{
+  background: #070707;
+  color: #fff;
+}
+
+main{
+  background: #393a47;
+  height: 100%;
+  height: 100%;
+}
+
+/* Aplicar la fuente Urbanist */
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Urbanist", sans-serif;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+  background-color: #4ac7b6;
+}
