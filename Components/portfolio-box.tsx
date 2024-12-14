@@ -3,7 +3,6 @@ import Link from "next/link"
 
 interface PortfolioBoxProps{
     data: {
-        id: number,
         title: string,
         image: string,
         urlGithub: string,
@@ -13,7 +12,7 @@ interface PortfolioBoxProps{
 
 const PortfolioBox = (props: PortfolioBoxProps) => {
     const{data} = props
-    const {id,title,image,urlGithub, urlDemo} = data
+    const {title,image,urlGithub, urlDemo} = data
     return ( 
         <div className="p-4 border border-teal-50 rounded-xl">
             <h3 className="mb-4 text-xl">

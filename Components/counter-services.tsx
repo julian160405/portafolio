@@ -1,7 +1,6 @@
 "use client"
 import CountUp from "react-countup";
 import { dataCounter } from "@/data";
-import { div } from "framer-motion/m";
 
 const CounterServices = () =>{
     return(
