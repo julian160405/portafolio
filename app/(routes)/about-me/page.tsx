@@ -6,7 +6,6 @@ import CounterServices from "@/Components/counter-services";
 import TimeLineEducation from "@/Components/time--line-education";
 import TimeLine from "@/Components/time-line";
 import TransitionPage from "@/Components/transition-page";
-import { div } from "framer-motion/client";
 
 const PageAboutMe = () => {
     return(
