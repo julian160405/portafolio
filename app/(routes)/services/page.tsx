@@ -1,10 +1,8 @@
 "use client"
-import Avatar from "@/Components/avatar";
 import AvatarServices from "@/Components/avatar-services";
 import CircleImage from "@/Components/circle-image";
 import SliderServices from "@/Components/slider-services";
 import TransitionPage from "@/Components/transition-page";
-import { p } from "framer-motion/client";
 
 const ServicesPage = () =>{
     return (
